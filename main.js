@@ -5,61 +5,61 @@ const LIMBO_PRODUCTS = [
     name: "Italian Cooking Class",
     price: 50,
     seller: "Cooking Academy",
-    image: "public/1.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897096/1_mnewop.jpg",
   },
   {
     name: "Pottery Workshop",
     price: 30,
     seller: "Pottery Area",
-    image: "public/2.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897096/2_zazjnz.jpg",
   },
   {
     name: "Sushi Making Course",
     price: 40,
     seller: "Cooking Academy",
-    image: "public/3.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897096/3_bsxj8q.jpg",
   },
   {
     name: "French Pastry Masterclass",
     price: 60,
     seller: "Cooking Academy",
-    image: "public/4.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897096/4_dfp8ac.jpg",
   },
   {
     name: "Ceramic Sculpture Course",
     price: 35,
     seller: "Pottery Area",
-    image: "public/5.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897096/5_fj5ucv.jpg",
   },
   {
     name: "Mediterranean Cuisine Workshop",
     price: 45,
     seller: "Cooking Academy",
-    image: "public/6.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897096/6_won5pc.jpg",
   },
   {
     name: "Candle Making workshop",
     price: 25,
     seller: "Creative Arts Studio",
-    image: "public/7.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897096/7_qycgkn.jpg",
   },
   {
     name: "Thai Cooking Experience",
     price: 55,
     seller: "Green Cooking",
-    image: "public/8.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897097/8_yj1kc2.jpg",
   },
   {
     name: "Drawing course",
     price: 50,
     seller: "Creative Arts Studio",
-    image: "public/9.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897097/9_ulqjeh.jpg",
   },
   {
     name: "Vegetarian Cooking Class",
     price: 40,
     seller: "Green Cooking",
-    image: "public/10.jpg",
+    image: "https://res.cloudinary.com/dfufuprrn/image/upload/v1699897097/10_ccenb7.jpg",
   },
 ];
 
@@ -95,7 +95,7 @@ const addHTML = (html) => {
 addHTML(`
   <header class="container">
     <h1>Limbo</h1>
-    <button id="menu-toggle"><img src="./public/assets/toggle.png" alt=""></button>
+    <button id="menu-toggle"><img src="https://res.cloudinary.com/dfufuprrn/image/upload/v1699896576/icon_ugyc4l.png" alt=""></button>
     <nav>
       <ul class='nav-list'>
         <li><a href='#'>Home</a></li>
