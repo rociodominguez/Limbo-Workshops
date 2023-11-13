@@ -95,7 +95,7 @@ const addHTML = (html) => {
 addHTML(`
   <header class="container">
     <h1>Limbo</h1>
-    <button id="menu-toggle"><img src="https://res.cloudinary.com/dfufuprrn/image/upload/v1699896576/icon_ugyc4l.png" alt=""></button>
+    <button id="menu-toggle"><img src="https://res.cloudinary.com/dfufuprrn/image/upload/v1699896577/toggle_hdb0fq.png" alt=""></button>
     <nav>
       <ul class='nav-list'>
         <li><a href='#'>Home</a></li>
